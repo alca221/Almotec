@@ -1,0 +1,7 @@
+host: nyc.domcloud.id
+
+u: almotec
+p: i4+N(sIZsHZ6d+161i
+
+
+bd: almotec_db
