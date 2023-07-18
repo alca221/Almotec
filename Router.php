@@ -23,7 +23,7 @@ public function comprobarRutas() {
 
     session_start();
 // verificamos que exista usuario autenticado
-    $auth = $_SESSION['login'] ?? null;
+    //$auth = $_SESSION['login'] ?? null;
 
 // arreglo de rutas protegidas, no pueden ingresar si no estan autenticadas
 $rutas_protegidas = ['/admin', '/propiedades/crear', '/propiedades/actualizar', '/propiedades/eliminar',
