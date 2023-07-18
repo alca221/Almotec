@@ -1,0 +1,53 @@
+.no-webp .inicio {
+    background-image: url(../img/portada.jpg);
+}
+.webp .inicio {
+    background-image: url(../img/portada.webp);
+}
+
+.header {
+    background-color: $azulalmo;
+    padding: 1rem 0 3rem 0;
+///////////////revisar 
+    .barra {
+        a {
+            img {
+                min-width: 20rem;
+            }
+        }
+    }
+
+    &.inicio {
+        background-position: center center;
+        background-size: cover;
+
+        @include tablet {
+            min-height: 50rem;
+        }
+
+        .contenido-header {
+            @include tablet {
+                min-height: 50rem;
+            }
+        }
+    }
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+        max-width: 60rem;
+    }
+
+    img {
+    width: 25%;
+     display: block;
+}
+}

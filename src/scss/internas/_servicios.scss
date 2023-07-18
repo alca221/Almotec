@@ -1,0 +1,27 @@
+.contenido-servicios {
+
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+}
+
+.texto-servicios blockquote {
+    font-weight: $black;
+    font-size: 2.2rem;
+    margin: 1rem 0 0 0;
+    padding-left: 1rem 0 3rem 0;
+}
+.barra-servicios {
+    background-color: $azulalmo;
+    // espacio barra
+     padding: inherit;
+  
+    h1 {
+        text-align: center;
+        color: $amarilloalmo;
+        font-weight: $bold;
+        //ancho de barra
+        line-height: 2;
+        max-width: 60rem;
+    }
+ }
