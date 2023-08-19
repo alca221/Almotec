@@ -3,17 +3,17 @@
     <legend>Datos Personales</legend>
 
     <label for="nombre">Nombres:</label>
-    <input type="text" id="nombre" name="plan[nombre]" placeholder="Nombres" value="<?php echo s( $plan->nombre ); ?>">
+    <input type="text" id="nombre" name="plan[nombre]" placeholder="Nombres" value="">
 
     <label for="apellido">Apellidos:</label>
-    <input type="text" id="apellido" name="plan[apellido]" placeholder="Apellidos" value="<?php echo s( $plan->apellido ); ?>">
+    <input type="text" id="apellido" name="plan[apellido]" placeholder="Apellidos" value="">
 
 
     <label for="rut">Rut:</label>
-    <input type="number" id="rut" name="plan[rut]" placeholder="Rut" value="<?php echo s($plan->rut); ?>">
+    <input type="number" id="rut" name="plan[rut]" placeholder="Rut" value="">
 
     <label for="direccion">Dirección</label>
-    <input type="text" id="direccion" placeholder="Direccion" name="direccion" value="<?php echo s($usuario->direccion); ?>">
+    <input type="text" id="direccion" placeholder="Direccion" name="direccion" value="">
 
     <div class="inscripcion" >
     <label for="regiones_id">Región</label>
@@ -34,14 +34,14 @@
 
 <div class="inscripcion" >
 <label for="telefono">Telefono</label>
-    <input type="tel" id="telefono" placeholder="Ingresa tu Telefono" name="telefono" value="<?php echo s($usuario->telefono); ?>" >
+    <input type="tel" id="telefono" placeholder="Ingresa tu Telefono" name="telefono" value="" >
 
     <label for="f_nacimiento">Fecha Nacimiento:</label>
-    <input type="date" id="f_nacimiento" name="plan[f_nacimiento]" placeholder="Fecha de nacimiento" value="<?php echo s($plan->f_nacimiento); ?>">
+    <input type="date" id="f_nacimiento" name="plan[f_nacimiento]" placeholder="Fecha de nacimiento" value="">
     </div>
 
     <label for="email">E-mail</label>
-    <input type="email" id="email" placeholder="E-mail" name="email" value="<?php echo s($usuario->email); ?>" >
+    <input type="email" id="email" placeholder="E-mail" name="email" value="" >
 
     <div class="inscripcion" >
         
@@ -62,7 +62,7 @@
     </select>
 
     <label for="f_ingreso">Fecha Ingreso:</label>
-    <input type="date" id="f_ingreso" name="plan[f_ingreso]" placeholder="Fecha de nacimiento" value="<?php echo s($plan->f_ingreso); ?>">
+    <input type="date" id="f_ingreso" name="plan[f_ingreso]" placeholder="Fecha de nacimiento" value="">
     </div>
       
    
@@ -141,7 +141,7 @@
 </div>
 
 <label for="numerouenta">Numero de Cuenta</label>
-    <input type="tel" id="numerouenta" placeholder="Numero de Cuenta" name="numerouenta" value="<?php echo s($usuario->numerouenta); ?>" >
+    <input type="tel" id="numerouenta" placeholder="Numero de Cuenta" name="numerouenta" value="" >
 
 
 </fieldset>
