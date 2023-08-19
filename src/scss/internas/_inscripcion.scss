@@ -1,0 +1,10 @@
+// @include tablet {
+//     {
+//         @include grid(2, 2rem);
+//     }
+// }
+
+ .inscripcion{
+    display: flex;
+    gap: 16px;
+ }

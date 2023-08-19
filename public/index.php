@@ -8,9 +8,13 @@ use Controllers\PropiedadController;
 use Controllers\VendedorController;
 use Controllers\PaginasController;
 use Controllers\LoginController;
+use Controllers\InscripcionController;
 
 $router = new Router();
 
+//formulario
+$router->get('/inscripcion/crear', [InscripcionController::class, 'crear']);
+ $router->post('/inscripcion/crear', [InscripcionController::class, 'crear']);
 //se traspasa para ver en que clase esta el metodo-- index-crear-actualizar son metodos de PropiedadController
 // Zona admin
 $router->get('/admin', [PropiedadController::class, 'index']);
